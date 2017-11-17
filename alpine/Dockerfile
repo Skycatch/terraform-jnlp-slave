@@ -23,8 +23,8 @@
 FROM jenkinsci/jnlp-slave:alpine
 MAINTAINER Blaine Schanfeldt <git@blaines.me>
 
-ENV TERRAFORM_VERSION=0.10.7
-ENV TERRAFORM_SHA256SUM=8fb5f587fcf67fd31d547ec53c31180e6ab9972e195905881d3dddb8038c5a37
+ENV TERRAFORM_VERSION=0.11.0
+ENV TERRAFORM_SHA256SUM=402b4333792967986383670134bb52a8948115f83ab6bda35f57fa2c3c9e9279
 
 USER root
 RUN apk add --update make git curl curl-dev openssh && \
