@@ -1,8 +1,8 @@
 repo_organization = skycatch
 repo_name = $(shell basename $(shell git config --get remote.origin.url) | cut -d. -f1)
 VARIANTS = alpine
-TERRAFORM_VERSION = 0.11.3
-TERRAFORM_SHA256SUM = 6b8a7b83954597d36bbed23913dd51bc253906c612a070a21db373eab71b277b
+TERRAFORM_VERSION = 0.11.5
+TERRAFORM_SHA256SUM = 131c440263382c79c7f783b70ff35cd1d03eb31c44f7738d153d95a0b8436ac9
 
 build:
 	for variant in $(VARIANTS); do \
